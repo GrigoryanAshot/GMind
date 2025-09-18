@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Ծառայություններ | GMind Partners</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .service-card {
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      }
+      
+      .service-description {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(27, 156, 227, 0.2);
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.4s ease;
+      }
+      
+      .service-description.active {
+        opacity: 1;
+        max-height: 500px;
+      }
+      
+      .service-description p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+      
+      .service-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .service-features li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 8px;
+        color: #555;
+        font-size: 14px;
+      }
+      
+      .service-features li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #1b9ce3;
+        font-weight: bold;
+      }
+      
+      .service-card.active .service-description {
+        opacity: 1;
+        max-height: 500px;
+      }
+      
+      .service-card.active {
+        background: #f8fcff;
+        border: 1px solid #1b9ce3;
+      }
+    </style>
+  </head>
+  <body>
+	  <div class="header-section d-none d-md-block">
+	  	<div class="bg-top navbar-light">
+	    	<div class="container">
+	    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
+	    			<div class="col-md-4 d-flex align-items-center py-4">
+	    				<a class="navbar-brand d-flex align-items-center" href="index.html"><img src="images/logo.png" alt="GMind Partners" style="height:50px; width:auto; margin-right:8px;"><span>GMind Partners</span></a>
+	    			</div>
+		    		<div class="col-lg-8 d-block">
+			    		<div class="row d-flex">
+						    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+						    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+							    <div class="text">
+							    	<span>Զանգահարեք</span>
+							    	<span style="display:inline-block; margin-top:6px;">Հեռ: <a href="tel:+37441782120" style="color: inherit; text-decoration: none;">+374 41 782 120</a></span>
+							    </div>
+						    </div>
+						    <div class="col-md topper d-flex align-items-center justify-content-end">
+						    	<div class="d-flex align-items-center flex-nowrap" style="margin-right:-15px; align-items: center;">
+						    		<a href="contact.html" class="btn py-2 px-3 btn-primary">
+						    			<span>Կապ մեզ հետ</span>
+						    		</a>
+						    		<a href="https://www.facebook.com/people/GMind-partners/61574672068163/" class="ml-4" aria-label="Facebook" target="_blank" rel="noopener" style="color:#000;">
+						    			<span class="icon-facebook" style="font-size:20px; color:#000;"></span>
+						    		</a>
+						    		<a href="https://www.instagram.com/gmind_partners/" class="ml-4" aria-label="Instagram" target="_blank" rel="noopener" style="color:#000;">
+						    			<span class="icon-instagram" style="font-size:20px; color:#000;"></span>
+						    		</a>
+						    	</div>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+	    </div>
+	  </div>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light sticky-top" id="ftco-navbar">
+	    <div class="container d-flex align-items-center px-4">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Մենյու
+	      </button>
+	      <form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Փնտրել">
+            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+          </div>
+        </form>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Գլխավոր</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">Մեր մասին</a></li>
+	        	<li class="nav-item active"><a href="services.html" class="nav-link">Ծառայություններ</a></li>
+	        	<li class="nav-item"><a href="blog.html" class="nav-link">Կարծիքներ</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Կապ մեզ հետ</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Ծառայություններ</h1>
+        
+        </div>
+      </div>
+    </section>
+
+    
+	<section class="ftco-section" id="services">
+			<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+	  <div class="col-md-8 text-center heading-section ftco-animate">
+		<h2 class="mb-4">Ծառայություններ WB և Ozon հարթակներում վաճառքի համար</h2>
+		<p>Արտադրումից մինչև առաքում։ GMind-ը կօգնի ձեզ հաջողել ամեն մի քայլում։</p>
+							</div>
+						</div>
+			<div class="service-list">
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card active" data-service="management" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span><img src="images/Management.png" alt="Management" style="width:48px; height:48px;"></span>
+					</div>
+									<div class="text media-body">
+						<h3 class="mb-2">Մենեջերի ծառայություն</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Ապրանքի վերլուծությունը, հաճախորդների սպասարկումը, գովազդի կառավարումը, քարտերի ձևավորումը և այլ գործընթացներ իրականացնում են փորձառու մասնագետները։ Մենք լիովին կառավարում ենք վաճառքի շղթան՝ սկսած ապրանքի գրանցումից մինչև պատվերների մշակումը։ Մեր թիմն ապահովում է օպտիմալ գնագոյացումը և հաճախորդների բարձր մակարդակի սպասարկումը։</p>
+									</div>
+								</div>
+							</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="procurement" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span class="flaticon-handshake" style="font-size:48px; color:#1b9ce3;"></span>
+								</div>
+									<div class="text media-body">
+						<h3 class="mb-2">Ապրանքի ձեռքբերում</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Մեր ծառայության հիմնական առավելությունը մրցունակ գինն է, նաև այն հանգամանքը, որ մեր բայերները գտնվում են Չինաստանում և տեղում վերահսկում ու ստուգում են ապրանքների որակը։ Սա թույլ է տալիս ապահովել հուսալի մատակարարումներ և բարձրորակ ապրանք։</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="fulfilment" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span><img src="images/fullfilment.png" alt="Fulfilment" style="width:48px; height:48px;"></span>
+        </div>
+							<div class="text media-body">
+						<h3 class="mb-2">Ֆուլֆիլմենթ ծառայություն</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Մենք տրամադրում ենք ֆուլֆիլմենթ ծառայություն, որը ներառում է ապրանքի մանրամասն ստուգումը, որակյալ փաթեթավորումը և պիտակավորումը։</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="transportation" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span><img src="images/Logistics.png" alt="Logistics" style="width:48px; height:48px;"></span>
+					</div>
+							<div class="text media-body">
+						<h3 class="mb-2">Ապրանքների փոխադրում</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Մենք կազմակերպում ենք ապրանքների անվտանգ և արագ փոխադրում Չինաստանից Ռուսաստան։ Բոլոր ապրանքները նախապես ստուգվում են տեղում՝ Չինաստանում, ինչը երաշխավորում է դրանց որակն ու անվնաս առաքումը։ Ապրանքների փոխադրումն իրականացվում է մեր երաշխավորությամբ։ Եթե փոխադրման ընթացքում ապրանքը վնասվի կամ կորչի, մենք փոխհատուցում ենք մեկ աշխատանքային օրվա ընթացքում։</p>
+						</div>
+					</div>
+							</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="photography" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span class="ion-ios-camera" style="font-size:48px; color:#1b9ce3;"></span>
+					</div>
+							<div class="text media-body">
+						<h3 class="mb-2">Լուսանկարահանում</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Մենք առաջարկում ենք պրոֆեսիոնալ ապրանքային լուսանկարահանման ծառայություններ ձեր ապրանքները մարկետփլեյսներում և օնլայն հարթակներում առավել գրավիչ ներկայացնելու համար։ Մեր փորձառու լուսանկարիչները ստեղծում են բարձրորակ, վաճառքը խթանող պատկերներ, որոնք ընդգծում են ապրանքի առանձնահատկություններն ու արժեքը։</p>
+						</div>
+					</div>
+							</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="infographics" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span class="flaticon-analysis" style="font-size:48px; color:#1b9ce3;"></span>
+					</div>
+							<div class="text media-body">
+						<h3 class="mb-2">Ինֆոգրաֆիկա</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Ճիշտ ինֆոգրաֆիկան ապրանքի գլխավոր վաճառող գործոններից մեկն է։ Մեր մասնագետը ոլորտի պրոֆեսիոնալներից է. նա ստեղծում է վիզուալ մատչելի, գրավիչ և վաճառքը խթանող ինֆոգրաֆիկաներ, որոնք էլ ներկայացնում են ապրանքի առավելություններն ու առանձնահատկությունները։</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="accounting" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span><img src="images/accounting.png" alt="Accounting" style="width:48px; height:48px;"></span>
+					</div>
+					<div class="text media-body">
+						<h3 class="mb-2">Հաշվապահական սպասարկում</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Մեր հաշվապահներն իրենց ոլորտում լավագույններից են։ Մենք համագործակցում ենք փորձառու հաշվապահական ընկերության հետ, որը գործում է արդեն ավելի քան 20 տարի։ Հաշվապահության ճիշտ կազմակերպումը թույլ է տալիս խուսափել հարկային ռիսկերից և ապահովել ձեր բիզնեսի գործունեությունն օրենքի շրջանակներում և լիովին թափանցիկ։</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="service-item d-flex align-items-start mb-5 p-4 service-card" data-service="certification" style="background:#f8fcff; border:1px solid #1b9ce3; border-radius:6px;">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center mr-3" style="min-width:60px;">
+						<span><img src="images/certificate.png" alt="Certification" style="width:48px; height:48px;"></span>
+					</div>
+					<div class="text media-body">
+						<h3 class="mb-2">Սերտիֆիկացում</h3>
+						<div class="service-description active" style="opacity:1;max-height:1000px;">
+							<p style="font-size: 16px; line-height: 1.6;">Սերտիֆիկացումն անհրաժեշտ է հնարավոր տուգանքներից և իրավական խնդիրներից խուսափելու համար։ Մեր ծառայության առավելությունն այն է, որ սերտիֆիկացման փաստաթղթերը տրամադրելուց հետո ձեր ապրանքը ստանում է «կանաչ նշան» (green mark), որը հաստատում է դրա համապատասխանությունը գործող ստանդարտներին։</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+		  <div class="row mb-5 justify-content-center">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+				  <h2 class="ftco-heading-2">Հարցե՞ր ունեք</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><a href="tel:+37441782120"><span class="icon icon-phone"></span><span class="text">+374 41 782 120</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+			<div class="col-md-6 col-lg-4">
+            <div class="ftco-footer-widget mb-5">
+				<h2 class="ftco-heading-2">Հղումներ</h2>
+              <ul class="list-unstyled">
+				  <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Գլխավոր</a></li>
+				  <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Մեր մասին</a></li>
+				  <li><a href="services.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Ծառայություններ</a></li>
+				  <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Կարծիքներ</a></li>
+				  <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Կապ մեզ հետ</a></li>
+              </ul>
+            </div>
+          </div>
+			<div class="col-md-6 col-lg-4">
+            <div class="ftco-footer-widget mb-5">
+				  <h2 class="ftco-heading-2 mb-0">Կապվեք մեզ հետ</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+				  <li class="ftco-animate"><a href="https://www.facebook.com/people/GMind-partners/61574672068163/" target="_blank" rel="noopener"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/gmind_partners/" target="_blank" rel="noopener"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Website developed by Ashot Grigoryan -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> Բոլոր իրավունքները պաշտպանված են | կայքը պատրաստված է <a href="https://www.facebook.com/TirMarketingAgency?locale=hy_AM" target="_blank" rel="noopener" style="color: #fff; text-decoration: underline;">Tir/Թիռ Marketing Agency</a>-ի կողմից
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      $('.service-card').click(function() {
+        var $this = $(this);
+        var $description = $this.find('.service-description');
+        
+        // Close all other open descriptions
+        $('.service-card').not($this).removeClass('active');
+        $('.service-description').not($description).removeClass('active');
+        
+        // Toggle current description
+        $this.toggleClass('active');
+        $description.toggleClass('active');
+        
+        // Smooth scroll to the clicked card if it's not fully visible
+        if ($this.hasClass('active')) {
+          $('html, body').animate({
+            scrollTop: $this.offset().top - 100
+          }, 500);
+        }
+      });
+    });
+  </script>
+    
+  </body>
+</html>
+  </script>
+    
+  </body>
+</html>
